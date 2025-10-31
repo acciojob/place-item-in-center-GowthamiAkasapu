@@ -1,2 +1,20 @@
+/* Holder container */
+.holder {
+  display: flex;                /* Enable flexbox */
+  justify-content: center;      /* Center horizontally */
+  align-items: center;          /* Center vertically */
+  width: 100vw;                 /* Full viewport width */
+  height: 100vh;                /* Full viewport height */
+}
 
-/* Your CSS Code here. */
+/* Item to be centered */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
